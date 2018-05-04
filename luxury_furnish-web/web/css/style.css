@@ -12,7 +12,7 @@ p {margin: 0;}
 html, body{
    font-family: 'Raleway', sans-serif;
    font-size: 100%;
-   background:#f8f8f8; 
+   background:#f8f8f8;
 }
 body a{
 	transition:0.5s all;
@@ -22,11 +22,11 @@ body a{
 	-ms-transition:0.5s all;
 }
 .header{
-	background: url(../images/banner2.jpg) no-repeat 0px 0px;
+	background: url(../images/portada2.jpg) no-repeat 0px 0px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	 background-size:100% 100%;
 	background-position: center;
 }
 .header-top {
@@ -34,7 +34,7 @@ body a{
 }
 .logo {
   float: left;
-  background-color: rgba(49, 194, 219, 0.66);
+  background-color: rgba(218, 32, 27, 0.66);
   padding: 27px;
   text-align: center;
 }
@@ -79,7 +79,7 @@ ul.social li a i {
 	width: 30px;
 	height: 30px;
 	display: block;
-	background: url(../images/img-sprite.png) #FFD001 no-repeat;
+	background: url(../images/img-sprite.png) #157EF7 no-repeat;
 }
 ul.social li a i:hover {
 	background: url(../images/img-sprite.png)no-repeat;
@@ -112,7 +112,7 @@ ul.login{
 ul.login li a{
 	font-size:.9em;
 	text-transform: capitalize;
-	color:#DF4782;
+	color:#9D1104;
 	font-weight: 600;
 }
 ul.login li.login_text{
@@ -122,7 +122,7 @@ ul.login li.wish{
 	float:right;
 }
 .cart_bg{
-	background:#ffd001;
+	background:#157EF7;
 	padding:0.5em 1em;
 }
 ul.cart p {
@@ -147,7 +147,7 @@ a.item_1 {
   right: 20px;
   width: 40px;
   height: 40px;
-  background: url(../images/plus.png) no-repeat 8px 8px #FFD001;
+  background: url(../images/plus.png) no-repeat 8px 8px #EA2F1E;
   color: #fff;
   text-align: center;
   line-height: 33px;
@@ -194,7 +194,7 @@ span.yellow{
 ul.quick_access{
 	padding:0px 30px 5px;
 	list-style:none;
-	background:#ffd001;
+	background:#157EF7;
 }
 ul.quick_access li a{
 	color:#fff;
@@ -232,17 +232,17 @@ ul.quick_access li.check{
   right: 0;
 }
 .search input[type="submit"]:hover{
-	background: url('../images/search.png') no-repeat 10px 9px #DF4782;
+	background: url('../images/search.png') no-repeat 10px 9px #EF5D15;
 }
 .welcome_box{
-	background:#31C2DB;
+	background:rgba(218, 32, 27, 0.90);
 	padding:5em 1.4em;
 	margin-top:10px;
 }
-.welcome_box h3{
+.welcome_box h4{
 	color:#333;
 	font-size:1.5em;
-	text-transform: capitalize;	 
+	text-transform: capitalize;
 }
 .welcome_box p {
   color: #fff;
@@ -268,7 +268,7 @@ ul.quick_access li.check{
 }
 .banner_btn {
 	display: inline-block;
-	background: #31C2DB;
+	background: #157EF7;
 	padding: 16px 25px 13px;
     color: #fff;
     font-size: 0.85em;
@@ -284,7 +284,7 @@ ul.quick_access li.check{
      font-family: 'Raleway', sans-serif;
 }
 .banner_btn:hover{
-	background:#DF4782;
+	background:#EF5D15;
 	text-decoration:none;
 	color:#fff;
 }
@@ -380,7 +380,7 @@ ul.quick_access li.check{
 	height: 100%;
 	opacity: 0;
 }
-/* SELECTED FEEDBACK ITEM */ 
+/* SELECTED FEEDBACK ITEM */
 .dropdown .selected,
 .dropdown li{
 	display: block;
@@ -474,7 +474,7 @@ ul.quick_access li.check{
   padding: 5em 0 3em;
 }
 h3.menu_head{
-	background: #333;
+	background: #9D1104;
 	padding: 2em 0 2em 3em;
 	color: #fff;
 	text-transform: capitalize;
@@ -485,7 +485,7 @@ h3.menu_head{
 ul.nav{
 	padding:14px 0;
 	list-style:none;
-	background:#68656A;
+	background:#EA2F1E;
 }
 ul.nav li:hover {
 	background:#333;
@@ -653,13 +653,13 @@ span.reducedfrom {
 	color:#777;
 }
 .row h3.m_1 {
-  color: #31C2DB;
+  color: #9D1104;
   font-size: 2em;
   text-transform: capitalize;
   font-weight: 400;
 }
 .row h3.m_2 {
-	color: #31C2DB;
+	color: #9D1104;
 	font-size: 2em;
 	text-transform: capitalize;
 	font-weight:400;
@@ -668,16 +668,16 @@ span.reducedfrom {
 .brands{
 	padding:2em;
 	background:#fff;
-}			
+}
 ul.brand_icons{
 	padding:0;
 	list-style:none;
-}	
+}
 ul.brand_icons li {
   width: 15%;
   display: inline-block;
   margin-right: 3.3em;
-}	
+}
 ul.brand_icons li.last{
 	margin:0;
 }
@@ -688,7 +688,7 @@ ul.brand_icons li.last{
 ul.instagram_grid{
 	padding:0;
 	list-style:none;
-}	
+}
 ul.instagram_grid li{
 	width: 15.936%;
 	float: left;
@@ -699,7 +699,7 @@ ul.instagram_grid li img{
 }
 ul.instagram_grid li.last_instagram{
 	margin:0;
-}			
+}
 .instagram h3 {
 	font-family: 'Raleway', sans-serif;
 	font-weight:400;
@@ -837,7 +837,7 @@ p.email a{
 	color:#df4782;
 }
 p.email span:hover{
-	text-decoration:underline; 
+	text-decoration:underline;
 }
 .footer_bottom{
 	background:#333;
@@ -1362,7 +1362,7 @@ h3.typo-title{
 .label {
   font-weight: 300 !important;
   border-radius:4px;
-}  
+}
 .grid_5{
 	background:none;
 	padding:2em 0;
@@ -1434,7 +1434,7 @@ p.comment-form-author {
 	 font-family: 'Raleway', sans-serif;
 }
 .contact-form input[type="submit"]:hover{
-	background:#df4782;	
+	background:#df4782;
 }
 .map{
 	margin-top: 3em;
@@ -1936,7 +1936,7 @@ ul.list1 a {
 }
 .span_2_of_a1 h1 {
   font-size: 1.3em;
-}  
+}
 .welcome_box {
 	padding:4em 1.4em;
 }
@@ -1945,10 +1945,10 @@ ul.list1 a {
 }
 ul.nav li a, ul.category_nav li a{
   font-size: .8em;
-}  
+}
 h3.menu_head {
   padding: 2em 0 2em 2em;
-}  
+}
 .tags {
 	padding: 1em;
 }
@@ -2232,7 +2232,7 @@ p.cart_desc {
 }
 h3.like, h3.recent {
   font-size: 1.1em;
-}  
+}
 }
 @media (max-width:640px){
 .bannertop_box {
@@ -2303,7 +2303,7 @@ i.tw {
 @media (max-width:568px){
 .logo img {
   width: 110px;
-}	
+}
 ul.social {
   margin-right: 1em;
 }
@@ -2318,10 +2318,10 @@ ul.social {
 }
 ul.quick_access li a, ul.login li a, ul.cart p, h5.empty{
   font-size: 11px;
-}  
+}
 h3.m_1, h3.m_2{
   font-size: 1.1em;
-}  
+}
 .brands {
   padding: 10px;
 }
@@ -2360,7 +2360,7 @@ i.pin {
 }
 h4.tag_head {
   font-size: 1em;
-}  
+}
 .about_box{
   width: 39%;
 }
@@ -2369,10 +2369,10 @@ h4.tag_head {
 }
 .cbp-vm-add {
   margin: 10px 0 0;
-}  
+}
 .pages .limiter, .sort-by{
   font-size: 12px;
-}  
+}
 .dreamcrub {
   margin: 2em 0 1em;
 }
@@ -2441,7 +2441,7 @@ h3.typo-title {
 }
 .footer-grid h3 {
   font-size: 1.1em;
-}  
+}
 .logo {
   margin: 0 0 1em 0;
   float: none;
@@ -2523,7 +2523,7 @@ ul.women_pagenation li a {
 .search input[type="submit"] {
   padding: 4px 15px;
   background: url('../images/search.png') no-repeat 7px 8px #333;
-}  
+}
 .search input[type="submit"]:hover {
   background: url('../images/search.png') no-repeat 7px 8px #df4782;
 }
@@ -2532,7 +2532,7 @@ h3.m_1 {
 }
 span.item_price {
   font-size: .8em;
-}  
+}
 a.item_1 {
   bottom: 55px;
 }
